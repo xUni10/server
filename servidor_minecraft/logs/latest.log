@@ -126,3 +126,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [12Jul2025 02:20:58.630] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@df8e53
 [12Jul2025 02:20:58.636] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:49941] logged in with entity id 876 at (149.71251668137631, 97.0, -202.5452043867012)
 [12Jul2025 02:20:58.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
+[12Jul2025 02:29:56.276] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[12Jul2025 02:29:56.277] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[12Jul2025 02:29:56.394] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[12Jul2025 02:29:56.586] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
