@@ -123,3 +123,6 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [12Jul2025 02:18:11.372] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
 [12Jul2025 02:18:11.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
 [12Jul2025 02:18:11.431] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[12Jul2025 02:20:58.630] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@df8e53
+[12Jul2025 02:20:58.636] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:49941] logged in with entity id 876 at (149.71251668137631, 97.0, -202.5452043867012)
+[12Jul2025 02:20:58.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
