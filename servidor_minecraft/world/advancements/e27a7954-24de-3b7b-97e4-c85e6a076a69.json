@@ -939,6 +939,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-07-12 00:47:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2025-07-08 22:26:17 +0000"
@@ -966,6 +972,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2025-07-10 02:48:40 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/froststalker_kill": {
+    "criteria": {
+      "ex": "2025-07-12 00:22:02 +0000"
     },
     "done": true
   },
@@ -1432,16 +1444,21 @@
       "minecraft:taiga": "2025-07-11 23:46:36 +0000",
       "minecraft:frozen_river": "2025-07-12 00:01:39 +0000",
       "minecraft:birch_forest": "2025-07-10 01:32:49 +0000",
+      "minecraft:bamboo_jungle": "2025-07-12 00:44:31 +0000",
       "minecraft:beach": "2025-07-10 01:33:00 +0000",
       "minecraft:dark_forest": "2025-07-10 01:36:10 +0000",
+      "minecraft:sparse_jungle": "2025-07-12 00:37:34 +0000",
       "minecraft:river": "2025-07-08 01:01:07 +0000",
+      "minecraft:lukewarm_ocean": "2025-07-12 00:44:36 +0000",
       "minecraft:snowy_plains": "2025-07-12 00:01:22 +0000",
       "minecraft:dripstone_caves": "2025-07-08 03:32:52 +0000",
       "minecraft:snowy_taiga": "2025-07-12 00:01:41 +0000",
       "minecraft:swamp": "2025-07-10 01:26:33 +0000",
       "minecraft:forest": "2025-07-10 01:40:21 +0000",
       "minecraft:ocean": "2025-07-10 01:34:38 +0000",
+      "minecraft:jungle": "2025-07-12 00:47:34 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-07-10 01:39:06 +0000",
+      "minecraft:old_growth_birch_forest": "2025-07-12 00:41:45 +0000",
       "minecraft:deep_dark": "2025-07-11 01:14:27 +0000",
       "minecraft:meadow": "2025-07-08 00:59:05 +0000",
       "minecraft:plains": "2025-07-08 00:57:53 +0000"
