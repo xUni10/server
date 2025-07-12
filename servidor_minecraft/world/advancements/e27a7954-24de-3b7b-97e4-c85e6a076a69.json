@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2025-07-08 01:09:49 +0000"
@@ -245,9 +251,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-07-09 01:37:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
     },
     "done": true
   },
@@ -320,6 +338,12 @@
   "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-10 02:29:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
     },
     "done": true
   },
@@ -551,6 +575,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-07-11 19:58:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-07-08 01:09:49 +0000"
@@ -566,6 +596,12 @@
   "minecraft:recipes/food/dried_kelp_from_smelting": {
     "criteria": {
       "has_kelp": "2025-07-10 03:24:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
     },
     "done": true
   },
@@ -681,6 +717,7 @@
     "criteria": {
       "minecraft:pillager": "2025-07-08 22:55:55 +0000",
       "minecraft:skeleton": "2025-07-09 00:52:05 +0000",
+      "minecraft:magma_cube": "2025-07-11 19:58:47 +0000",
       "minecraft:spider": "2025-07-09 00:52:18 +0000",
       "minecraft:creeper": "2025-07-09 02:04:45 +0000",
       "minecraft:phantom": "2025-07-10 03:03:28 +0000",
@@ -695,6 +732,12 @@
   "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
       "lightning_rod_with_villager_no_fire": "2025-07-08 01:36:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-07-11 20:04:16 +0000"
     },
     "done": true
   },
@@ -809,6 +852,18 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2025-07-08 01:58:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
     },
     "done": true
   },
@@ -938,6 +993,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2025-07-08 01:22:06 +0000"
@@ -953,6 +1014,12 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2025-07-10 06:36:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
     },
     "done": true
   },
@@ -1001,6 +1068,12 @@
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2025-07-10 03:00:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
     },
     "done": true
   },
@@ -1356,11 +1429,15 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-07-10 05:11:35 +0000",
       "minecraft:old_growth_pine_taiga": "2025-07-10 01:27:05 +0000",
+      "minecraft:taiga": "2025-07-11 23:46:36 +0000",
+      "minecraft:frozen_river": "2025-07-12 00:01:39 +0000",
       "minecraft:birch_forest": "2025-07-10 01:32:49 +0000",
       "minecraft:beach": "2025-07-10 01:33:00 +0000",
       "minecraft:dark_forest": "2025-07-10 01:36:10 +0000",
       "minecraft:river": "2025-07-08 01:01:07 +0000",
+      "minecraft:snowy_plains": "2025-07-12 00:01:22 +0000",
       "minecraft:dripstone_caves": "2025-07-08 03:32:52 +0000",
+      "minecraft:snowy_taiga": "2025-07-12 00:01:41 +0000",
       "minecraft:swamp": "2025-07-10 01:26:33 +0000",
       "minecraft:forest": "2025-07-10 01:40:21 +0000",
       "minecraft:ocean": "2025-07-10 01:34:38 +0000",
@@ -1473,9 +1550,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-07-08 01:09:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-07-11 20:24:53 +0000"
     },
     "done": true
   },
@@ -1527,6 +1616,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-07-10 03:55:46 +0000"
@@ -1548,6 +1643,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2025-07-09 00:35:37 +0000",
+      "minecraft:soul_sand_valley": "2025-07-11 20:02:56 +0000",
       "minecraft:basalt_deltas": "2025-07-09 00:31:46 +0000"
     },
     "done": false
@@ -1633,6 +1729,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_black_dye": "2025-07-10 00:40:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
     },
     "done": true
   },
@@ -1756,6 +1858,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-07-11 20:04:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-07-08 01:21:24 +0000"
@@ -1771,6 +1879,12 @@
   "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-07-10 03:55:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-07-11 20:04:16 +0000"
     },
     "done": true
   },
@@ -1897,6 +2011,7 @@
       "bread": "2025-07-08 01:11:24 +0000",
       "rotten_flesh": "2025-07-10 04:19:46 +0000",
       "suspicious_stew": "2025-07-11 01:37:12 +0000",
+      "golden_carrot": "2025-07-11 20:56:46 +0000",
       "carrot": "2025-07-10 04:18:58 +0000"
     },
     "done": false
@@ -1910,6 +2025,12 @@
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2025-07-11 00:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
     },
     "done": true
   },
@@ -2273,6 +2394,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-07-08 01:21:24 +0000"
@@ -2549,6 +2676,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2025-07-11 19:59:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2025-07-08 01:01:07 +0000"
@@ -2600,6 +2733,18 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2025-07-09 00:26:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
     },
     "done": true
   },
@@ -2699,6 +2844,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-07-09 00:34:32 +0000"
@@ -2783,6 +2934,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-07-08 00:58:07 +0000"
@@ -2816,6 +2973,12 @@
   "cgm:recipes/cgm/shell": {
     "criteria": {
       "has_gold_nugget": "2025-07-09 00:33:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
     },
     "done": true
   },
@@ -2891,6 +3054,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_candle": {
     "criteria": {
       "has_gray_dye": "2025-07-10 00:53:19 +0000"
@@ -2957,6 +3126,12 @@
     },
     "done": true
   },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-07-11 20:27:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-07-08 01:53:38 +0000"
@@ -2972,6 +3147,18 @@
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2025-07-09 02:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
     },
     "done": true
   },
@@ -3059,6 +3246,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-07-11 20:25:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-07-08 02:38:04 +0000"
@@ -3098,6 +3291,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-07-08 22:24:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-07-11 23:43:17 +0000"
     },
     "done": true
   },
