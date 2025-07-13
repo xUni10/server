@@ -455,3 +455,23 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 05:29:06.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Sweet Dreams]
 [13Jul2025 05:30:58.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Cover Me with Diamonds]
 [13Jul2025 05:33:36.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur suffocated in a wall
+[13Jul2025 05:36:34.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1566, y=59, z=-1323} BlockPos{x=1566, y=60, z=-1323}
+[13Jul2025 05:39:26.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [What a Deal!]
+[13Jul2025 05:40:42.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Monster Hunter]
+[13Jul2025 05:40:49.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Take Aim]
+[13Jul2025 05:41:08.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [We Need to Go Deeper]
+[13Jul2025 05:42:23.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Acquire Hardware]
+[13Jul2025 05:47:23.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Pic-A-Nic Basket?]
+[13Jul2025 05:51:51.193] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[13Jul2025 05:51:51.193] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[13Jul2025 05:51:51.193] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 05:51:51.194] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 05:51:51.194] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 05:51:51.194] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 05:51:51.194] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 05:51:51.195] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 05:51:51.195] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 05:51:51.195] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 05:51:51.196] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 05:51:51.196] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 05:51:51.196] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 96
