@@ -442,3 +442,5 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 05:08:21.927] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-155}
 [13Jul2025 05:08:21.981] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-155}
 [13Jul2025 05:08:22.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-157}
+[13Jul2025 05:21:35.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Oh Shiny]
+[13Jul2025 05:23:55.486] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@54f062c7[id=<null>,name=Z1lasaur,properties={},legacy=false] (/127.51.58.115:34085) lost connection: Disconnected
