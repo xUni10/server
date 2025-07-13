@@ -1,44 +1,44 @@
-[13Jul2025 00:51:48.564] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[13Jul2025 00:51:48.570] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[13Jul2025 00:51:48.975] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[13Jul2025 00:51:49.307] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[13Jul2025 00:51:49.309] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[13Jul2025 00:51:49.310] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[13Jul2025 00:51:49.311] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[13Jul2025 00:51:49.459] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[13Jul2025 00:51:50.972] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13Jul2025 00:51:50.990] [main/ERROR] [mixin/]: Mixin config firstperson.mixins.json does not specify "minVersion" property
-[13Jul2025 00:51:51.101] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[13Jul2025 00:51:51.102] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[13Jul2025 00:51:51.106] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[13Jul2025 00:51:51.145] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 30 options available, 0 override(s) found
-[13Jul2025 00:51:51.339] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
-[13Jul2025 00:51:51.340] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
-[13Jul2025 00:51:51.469] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[13Jul2025 00:51:51.469] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[13Jul2025 00:51:51.470] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[13Jul2025 00:51:51.471] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[13Jul2025 00:51:51.471] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[13Jul2025 00:51:51.472] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[13Jul2025 00:51:51.486] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[13Jul2025 00:51:51.487] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[13Jul2025 00:51:51.528] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[13Jul2025 00:51:55.958] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[13Jul2025 00:51:57.929] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[13Jul2025 00:51:58.030] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[13Jul2025 00:51:58.031] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[13Jul2025 00:51:58.073] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[13Jul2025 00:51:58.075] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[13Jul2025 00:51:58.427] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@2640893e has been registered twice for the same name treechop:chop_wood.
-[13Jul2025 00:51:59.605] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
-[13Jul2025 00:51:59.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.3.7 Target: null
-[13Jul2025 00:51:59.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[13Jul2025 00:51:59.864] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
-[13Jul2025 00:51:59.864] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
-[13Jul2025 00:51:59.864] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
-[13Jul2025 00:52:00.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.19.2-1.4.5 Target: null
-[13Jul2025 00:52:00.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[13Jul2025 00:52:01.074] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[13Jul2025 06:17:45.565] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[13Jul2025 06:17:45.568] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[13Jul2025 06:17:46.005] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[13Jul2025 06:17:46.313] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[13Jul2025 06:17:46.315] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[13Jul2025 06:17:46.316] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[13Jul2025 06:17:46.317] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[13Jul2025 06:17:46.483] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13Jul2025 06:17:47.922] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Jul2025 06:17:47.934] [main/ERROR] [mixin/]: Mixin config firstperson.mixins.json does not specify "minVersion" property
+[13Jul2025 06:17:48.023] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[13Jul2025 06:17:48.024] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[13Jul2025 06:17:48.027] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Jul2025 06:17:48.092] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 30 options available, 0 override(s) found
+[13Jul2025 06:17:48.301] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
+[13Jul2025 06:17:48.302] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
+[13Jul2025 06:17:48.419] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[13Jul2025 06:17:48.420] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[13Jul2025 06:17:48.420] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[13Jul2025 06:17:48.421] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[13Jul2025 06:17:48.421] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[13Jul2025 06:17:48.422] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[13Jul2025 06:17:48.432] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[13Jul2025 06:17:48.433] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[13Jul2025 06:17:48.478] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[13Jul2025 06:17:53.071] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[13Jul2025 06:17:55.130] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[13Jul2025 06:17:55.242] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[13Jul2025 06:17:55.244] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[13Jul2025 06:17:55.263] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[13Jul2025 06:17:55.266] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[13Jul2025 06:17:55.575] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@73a815c2 has been registered twice for the same name treechop:chop_wood.
+[13Jul2025 06:17:56.771] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[13Jul2025 06:17:56.978] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.3.7 Target: null
+[13Jul2025 06:17:56.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[13Jul2025 06:17:57.017] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[13Jul2025 06:17:57.017] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[13Jul2025 06:17:57.017] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[13Jul2025 06:17:57.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.19.2-1.4.5 Target: null
+[13Jul2025 06:17:57.751] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[13Jul2025 06:17:57.852] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
@@ -53,426 +53,54 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
 	... 6 more
-[13Jul2025 00:52:01.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Jul2025 00:52:01.113] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Jul2025 00:52:01.304] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
-[13Jul2025 00:52:01.788] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23145!/assets/.mcassetsroot' uses unexpected schema
-[13Jul2025 00:52:01.789] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23145!/data/.mcassetsroot' uses unexpected schema
-[13Jul2025 00:52:05.024] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[13Jul2025 00:52:05.543] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[13Jul2025 00:52:05.958] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement man:thetear: Non [a-z0-9/._-] character in path of location: man:tearoftheman
+[13Jul2025 06:17:57.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Jul2025 06:17:58.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[13Jul2025 06:17:58.179] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Jul2025 06:17:58.850] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23145!/assets/.mcassetsroot' uses unexpected schema
+[13Jul2025 06:17:58.851] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23145!/data/.mcassetsroot' uses unexpected schema
+[13Jul2025 06:18:02.453] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[13Jul2025 06:18:03.053] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[13Jul2025 06:18:03.469] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement man:thetear: Non [a-z0-9/._-] character in path of location: man:tearoftheman
 
-[13Jul2025 00:52:06.003] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1312 advancements
-[13Jul2025 00:52:06.670] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[13Jul2025 00:52:06.671] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Jul2025 00:52:06.671] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Jul2025 00:52:06.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Jul2025 00:52:06.851] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Jul2025 00:52:06.877] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Jul2025 00:52:06.965] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Jul2025 00:52:06.966] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Jul2025 00:52:06.966] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Jul2025 00:52:06.966] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Jul2025 00:52:06.985] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[13Jul2025 00:52:06.987] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[13Jul2025 00:52:06.990] [Thread-0/INFO] [de.cadentem.irritator.Irritator/]: Server configuration has been reloaded
-[13Jul2025 00:52:06.991] [Thread-0/INFO] [de.cadentem.irritator.Irritator/]: Server configuration has been reloaded
-[13Jul2025 00:52:07.101] [Server thread/INFO] [Framework/]: Loading server configs...
-[13Jul2025 00:52:07.117] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Jul2025 00:52:07.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Jul2025 00:52:12.128] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.129] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.156] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.182] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.207] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.245] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.263] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.282] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.301] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:12.313] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:13.333] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:13.342] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:13.603] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 00:52:14.081] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[13Jul2025 00:52:14.581] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[13Jul2025 00:52:15.081] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[13Jul2025 00:52:15.343] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7763 ms
-[13Jul2025 00:52:15.344] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.368s)! For help, type "help"
-[13Jul2025 00:52:15.362] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Jul2025 00:52:15.362] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
-[13Jul2025 00:59:09.265] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5c07e65e
-[13Jul2025 00:59:09.286] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xUNIx10[/127.51.58.115:54763] logged in with entity id 163 at (592.2512204906917, 67.17675927506424, -3358.8221770043606)
-[13Jul2025 00:59:09.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 joined the game
-[13Jul2025 00:59:12.281] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3114ms or 62 ticks behind
-[13Jul2025 01:02:18.916] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5122d6ba
-[13Jul2025 01:02:18.923] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:39027] logged in with entity id 2823 at (74.69999998807907, 97.16610926093821, -192.69999998807907)
-[13Jul2025 01:02:18.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
-[13Jul2025 01:08:23.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hoy vamos al end??
-[13Jul2025 01:08:31.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tienes loos recursos?
-[13Jul2025 01:08:44.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> no
-[13Jul2025 01:08:49.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ._:
-[13Jul2025 01:08:52.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hay que ir por ellos
-[13Jul2025 01:09:25.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tengo miedo
-[13Jul2025 01:10:14.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> con los shaders es otra cosa
-[13Jul2025 01:11:01.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> pipipip
-[13Jul2025 01:11:22.799] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
-[13Jul2025 01:11:22.800] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 96
-[13Jul2025 01:11:39.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ve a la montaña a farmear almas
-[13Jul2025 01:11:46.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> me da miedo
-[13Jul2025 01:12:04.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no tenemos cuero?
-[13Jul2025 01:12:20.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> si
-[13Jul2025 01:12:27.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> donde hay
-[13Jul2025 01:12:47.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> en los cofres
-[13Jul2025 01:12:55.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> de born in the chaos
-[13Jul2025 01:12:57.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no es cierto no hay nada
-[13Jul2025 01:13:00.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> el cuero de los lobos
-[13Jul2025 01:13:05.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> asi
-[13Jul2025 01:13:06.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> si lo pones en la mesa de crafteo
-[13Jul2025 01:13:13.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> se comvierte en cuero normal
-[13Jul2025 01:13:16.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> te da dos
-[13Jul2025 01:14:52.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> cuando vuelves
-[13Jul2025 01:15:05.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> estoy a 100 bloques
-[13Jul2025 01:15:22.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ok
-[13Jul2025 01:15:37.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 moved too quickly! 3.8926405384438567,-10.251873649421825,-0.11022602390272596
-[13Jul2025 01:17:02.582] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
-[13Jul2025 01:17:06.209] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
-[13Jul2025 01:17:06.443] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
-[13Jul2025 01:17:06.464] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 78
-[13Jul2025 01:17:09.634] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
-[13Jul2025 01:17:09.635] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
-[13Jul2025 01:18:16.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> AYUDAAAA
-[13Jul2025 01:19:48.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ._.
-[13Jul2025 01:19:53.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> es mi mascota
-[13Jul2025 01:19:59.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> y mis loros xd?
-[13Jul2025 01:20:04.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> yo tenia dos loros
-[13Jul2025 01:20:06.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> donde los dejaste
-[13Jul2025 01:20:12.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ni idea
-[13Jul2025 01:20:34.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tas menso
-[13Jul2025 01:20:42.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> aqui nooooooooo
-[13Jul2025 01:20:56.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> luego le hare zona
-[13Jul2025 01:21:02.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> provicional
-[13Jul2025 01:21:43.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> dejalo ayi
-[13Jul2025 01:21:44.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> se va a morir
-[13Jul2025 01:22:32.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> la lluvia es hermosa
-[13Jul2025 01:23:28.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> heeeeeeeeeeeeey
-[13Jul2025 01:23:33.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que
-[13Jul2025 01:23:33.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> yo no puedo poner shaders
-[13Jul2025 01:23:41.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> necesitas el oculus
-[13Jul2025 01:23:51.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> k flojera
-[13Jul2025 01:25:18.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tu mugre pez ocupando espacio y milanesa en un rincon+
-[13Jul2025 01:26:08.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> quita eso
-[13Jul2025 01:28:00.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> vamo al nether
-[13Jul2025 01:28:04.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> pera
-[13Jul2025 01:30:11.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tienes libro de reparacion?
-[13Jul2025 01:30:19.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> no
-[13Jul2025 01:37:13.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> bruh
-[13Jul2025 01:37:28.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> me avisas
-[13Jul2025 01:39:43.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ya
-[13Jul2025 01:39:57.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> voy
-[13Jul2025 01:40:09.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> trae balas pls
-[13Jul2025 01:40:24.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> de que
-[13Jul2025 01:40:33.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> minigun
-[13Jul2025 01:41:48.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> gracias
-[13Jul2025 01:42:18.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> lol
-[13Jul2025 01:42:23.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> sale llamada?
-[13Jul2025 01:42:32.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no se
-[13Jul2025 01:43:20.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> piglins
-[13Jul2025 01:43:48.161] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-148, y=47, z=27} BlockPos{x=-150, y=48, z=27}
-[13Jul2025 01:43:48.229] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-148, y=47, z=27} BlockPos{x=-150, y=48, z=27}
-[13Jul2025 01:44:20.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> xd
-[13Jul2025 01:44:40.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tas mensisismo
-[13Jul2025 01:45:40.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que es esoooooo
-[13Jul2025 01:45:57.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> UN DISNOSAURIP
-[13Jul2025 01:46:03.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> qieeeeeee
-[13Jul2025 01:47:01.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> xd
-[13Jul2025 01:47:24.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> NO ME TRAJE ALMASSSSSSSS
-[13Jul2025 01:47:34.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ahorita tedoty
-[13Jul2025 01:47:39.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> nada más que no tengo muchas
-[13Jul2025 01:47:51.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ME VOYA MORIR
-[13Jul2025 01:49:40.063] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-419, y=58, z=117} BlockPos{x=-418, y=58, z=117}
-[13Jul2025 01:49:52.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> Pera
-[13Jul2025 01:50:08.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> perame tantito
-[13Jul2025 01:51:32.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has completed the challenge [Hot Tourist Destinations]
-[13Jul2025 01:52:21.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Nightmare Fuel]
-[13Jul2025 01:53:53.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida has completed the challenge [Hot Tourist Destinations]
-[13Jul2025 01:55:56.127] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-345, y=72, z=59} BlockPos{x=-344, y=75, z=61}
-[13Jul2025 01:56:19.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> sale llamada
-[13Jul2025 01:58:59.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> crees aguantar el daño de caida?
-[13Jul2025 01:59:05.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> seeeeeee
-[13Jul2025 02:02:39.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> estoy durisimo
-[13Jul2025 02:03:35.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> k paso
-[13Jul2025 02:04:17.732] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:04:17.826] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:04:17.925] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:04:18.024] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:04:18.125] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:04:24.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> changos
-[13Jul2025 02:04:28.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> solto lut
-[13Jul2025 02:05:36.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> me ecpujas
-[13Jul2025 02:07:08.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> reacciona
-[13Jul2025 02:09:14.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> baja con cuidado
-[13Jul2025 02:09:47.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ontas
-[13Jul2025 02:10:53.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hermano
-[13Jul2025 02:10:57.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> que estas haceindo
-[13Jul2025 02:11:19.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que rayos hace aqui
-[13Jul2025 02:13:31.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> XD
-[13Jul2025 02:13:42.011] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
-[13Jul2025 02:13:42.083] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
-[13Jul2025 02:13:42.109] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
-[13Jul2025 02:13:42.165] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
-[13Jul2025 02:13:42.212] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
-[13Jul2025 02:13:42.281] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
-[13Jul2025 02:13:52.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> dame un minuto
-[13Jul2025 02:13:56.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ok
-[13Jul2025 02:14:07.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> cuidame
-[13Jul2025 02:17:43.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> img
-[13Jul2025 02:17:54.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> k'
-[13Jul2025 02:17:59.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> era como un oso+
-[13Jul2025 02:18:07.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> con cabeza de koala
-[13Jul2025 02:18:17.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> a si ya mate uno de esos
-[13Jul2025 02:18:23.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> dios me bajo todo
-[13Jul2025 02:18:39.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> wait
-[13Jul2025 02:18:40.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> perame que aura esta pidiendo algo
-[13Jul2025 02:18:44.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ok
-[13Jul2025 02:19:34.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> que fie esp
-[13Jul2025 02:26:18.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ontas
-[13Jul2025 02:26:23.799] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
-[13Jul2025 02:26:37.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> estoy en
-[13Jul2025 02:26:47.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> -528 537
-[13Jul2025 02:27:19.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no t veo
-[13Jul2025 02:29:21.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que haces loco
-[13Jul2025 02:29:46.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> encontrando fortres
-[13Jul2025 02:30:21.180] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-592, y=98, z=526} BlockPos{x=-591, y=97, z=525}
-[13Jul2025 02:31:35.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> aver pera
-[13Jul2025 02:32:06.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> k paso
-[13Jul2025 02:32:37.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> nad
-[13Jul2025 02:32:44.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ontas
-[13Jul2025 02:35:00.680] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-665, y=67, z=508} BlockPos{x=-665, y=68, z=510}
-[13Jul2025 02:35:00.730] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-665, y=67, z=508} BlockPos{x=-665, y=68, z=510}
-[13Jul2025 02:35:00.780] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-665, y=67, z=508} BlockPos{x=-665, y=68, z=510}
-[13Jul2025 02:36:35.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida has made the advancement [Nightmare Fuel]
-[13Jul2025 02:37:42.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> esperame aqui
-[13Jul2025 02:37:47.023] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.124] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.224] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.325] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.425] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.524] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.623] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.727] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.825] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:47.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.025] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.126] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.226] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.326] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.425] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.525] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.626] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.727] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.828] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.927] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:48.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ok
-[13Jul2025 02:37:49.026] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.126] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.226] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.330] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.425] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.526] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.625] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.726] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.829] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:49.925] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.023] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.124] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.224] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.323] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.523] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.625] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.723] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.823] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:50.923] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.024] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.125] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.239] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.325] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.426] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.523] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.624] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.725] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.825] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:51.923] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.024] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.124] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.225] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.327] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.424] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.524] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.624] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.724] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.822] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:52.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.024] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.123] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.227] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.325] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.427] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.524] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.623] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.723] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.826] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:53.923] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.024] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.122] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.222] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.325] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.427] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.624] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.727] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.824] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:54.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.023] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.124] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.223] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.323] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.424] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.524] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.623] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.724] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.825] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:55.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.025] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.125] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.224] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.324] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.425] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.526] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.626] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.727] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.827] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:56.926] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:57.027] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:57.126] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:57.226] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:57.325] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:57.426] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:57.527] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:57.625] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:57.724] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:58.724] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:58.825] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:58.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.026] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.123] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.224] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.323] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.423] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.523] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.624] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.723] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.825] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:37:59.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.025] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.126] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.224] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.323] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.423] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.523] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.625] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.723] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.825] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:00.923] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.023] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.124] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.224] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.323] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.424] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.523] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.625] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.724] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.825] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:01.924] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:38:07.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> CUIDADP
-[13Jul2025 02:38:11.301] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 379
-[13Jul2025 02:38:24.653] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-758, y=40, z=463} BlockPos{x=-757, y=40, z=464}
-[13Jul2025 02:39:02.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida tried to swim in lava to escape Bone Serpent
-[13Jul2025 02:39:03.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ufff
-[13Jul2025 02:39:10.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> la senti serca
-[13Jul2025 02:39:13.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> pipipipipi
-[13Jul2025 02:39:18.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> te moriste ????¡??
-[13Jul2025 02:39:29.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> me tiro la cosa de huesos
-[13Jul2025 02:39:31.735] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 02:39:47.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> no manches
-[13Jul2025 02:40:00.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> y ahora que hago
-[13Jul2025 02:40:05.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no se
-[13Jul2025 02:40:33.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> como que no se
-[13Jul2025 02:40:38.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> se quemaron todas tus cosas
-[13Jul2025 02:41:35.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ahora que vasa a hacer
-[13Jul2025 02:42:11.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> prosperar
-[13Jul2025 02:45:49.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> fortaleza
-[13Jul2025 02:46:48.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> deseame suerte
-[13Jul2025 02:46:55.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> suerte
-[13Jul2025 02:47:03.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> per dario tu armadura prote cuatro
-[13Jul2025 02:47:13.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [A Terrible Fortress]
-[13Jul2025 02:47:20.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Spooky Scary Skeleton]
-[13Jul2025 02:47:29.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ala
-[13Jul2025 02:47:31.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Into Fire]
-[13Jul2025 02:54:41.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ya tengo las tres cabezas llevo mas?
-[13Jul2025 02:54:46.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> si
-[13Jul2025 02:54:53.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> 2
-[13Jul2025 02:54:54.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> cuantas
-[13Jul2025 02:55:18.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> para 2 whiters?
-[13Jul2025 02:55:26.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> aver
-[13Jul2025 02:55:42.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ahoita las consigo voy a comer
-[13Jul2025 02:55:45.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 lost connection: Disconnected
-[13Jul2025 02:55:45.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 left the game
-[13Jul2025 02:55:45.606] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[13Jul2025 04:01:06.528] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Timed out
-[13Jul2025 04:01:06.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
-[13Jul2025 04:01:06.575] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[13Jul2025 04:15:39.127] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@50e767d9
-[13Jul2025 04:15:39.131] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xUNIx10[/127.51.58.115:54417] logged in with entity id 83454 at (-604.8553862014157, 59.0, 314.30000001192093)
-[13Jul2025 04:15:39.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 joined the game
-[13Jul2025 04:45:40.179] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 04:46:17.278] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[13Jul2025 04:47:18.495] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
-[13Jul2025 04:49:58.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Fetch Me Their Souls!]
-[13Jul2025 05:08:21.827] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-155}
-[13Jul2025 05:08:21.881] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-155}
-[13Jul2025 05:08:21.927] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-155}
-[13Jul2025 05:08:21.981] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-155}
-[13Jul2025 05:08:22.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-157}
-[13Jul2025 05:21:35.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Oh Shiny]
-[13Jul2025 05:23:55.486] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@54f062c7[id=<null>,name=Z1lasaur,properties={},legacy=false] (/127.51.58.115:34085) lost connection: Disconnected
-[13Jul2025 05:24:44.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Spray 'n Pray]
-[13Jul2025 05:24:45.025] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@47771a6c[id=<null>,name=Z1lasaur,properties={},legacy=false] (/127.51.58.115:35853) lost connection: Disconnected
-[13Jul2025 05:25:27.129] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7ae9f33b[id=<null>,name=Z1lasaur,properties={},legacy=false] (/127.51.58.115:33955) lost connection: Disconnected
-[13Jul2025 05:26:46.982] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3dbf83ad
-[13Jul2025 05:26:46.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Z1lasaur[/127.51.58.115:43149] logged in with entity id 99727 at (16.5, 108.0, -52.5)
-[13Jul2025 05:26:46.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur joined the game
-[13Jul2025 05:27:25.587] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
-[13Jul2025 05:28:18.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Suit Up]
-[13Jul2025 05:29:06.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Sweet Dreams]
-[13Jul2025 05:30:58.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Cover Me with Diamonds]
-[13Jul2025 05:33:36.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur suffocated in a wall
-[13Jul2025 05:36:34.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1566, y=59, z=-1323} BlockPos{x=1566, y=60, z=-1323}
-[13Jul2025 05:39:26.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [What a Deal!]
-[13Jul2025 05:40:42.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Monster Hunter]
-[13Jul2025 05:40:49.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Take Aim]
-[13Jul2025 05:41:08.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [We Need to Go Deeper]
-[13Jul2025 05:42:23.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Acquire Hardware]
-[13Jul2025 05:47:23.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Pic-A-Nic Basket?]
-[13Jul2025 05:51:51.193] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
-[13Jul2025 05:51:51.193] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
-[13Jul2025 05:51:51.193] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
-[13Jul2025 05:51:51.194] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
-[13Jul2025 05:51:51.194] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
-[13Jul2025 05:51:51.194] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
-[13Jul2025 05:51:51.194] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
-[13Jul2025 05:51:51.195] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
-[13Jul2025 05:51:51.195] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
-[13Jul2025 05:51:51.195] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
-[13Jul2025 05:51:51.196] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
-[13Jul2025 05:51:51.196] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
-[13Jul2025 05:51:51.196] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 96
-[13Jul2025 05:56:56.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has reached the goal [Feelingwatched]
+[13Jul2025 06:18:03.496] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1312 advancements
+[13Jul2025 06:18:04.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[13Jul2025 06:18:04.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Jul2025 06:18:04.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Jul2025 06:18:04.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Jul2025 06:18:04.287] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Jul2025 06:18:04.312] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Jul2025 06:18:04.405] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Jul2025 06:18:04.405] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Jul2025 06:18:04.405] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Jul2025 06:18:04.406] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Jul2025 06:18:04.434] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[13Jul2025 06:18:04.436] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[13Jul2025 06:18:04.439] [Thread-0/INFO] [de.cadentem.sackman.SackMan/]: Server configuration has been reloaded
+[13Jul2025 06:18:04.546] [Server thread/INFO] [Framework/]: Loading server configs...
+[13Jul2025 06:18:04.560] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Jul2025 06:18:04.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Jul2025 06:18:11.540] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.541] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.542] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.543] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.544] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.545] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.546] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.547] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.548] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.549] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.549] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.550] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.551] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.552] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:11.948] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 06:18:12.449] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[13Jul2025 06:18:12.948] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[13Jul2025 06:18:13.443] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8496 ms
+[13Jul2025 06:18:13.444] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.025s)! For help, type "help"
+[13Jul2025 06:18:13.462] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Jul2025 06:18:13.462] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[13Jul2025 06:18:31.012] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@30c799a6
+[13Jul2025 06:18:31.029] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xUNIx10[/127.51.58.115:40695] logged in with entity id 111 at (45.437562709742906, 99.00133597911214, -262.3635554785785)
+[13Jul2025 06:18:31.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 joined the game
+[13Jul2025 06:25:21.016] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-150, y=15, z=4} BlockPos{x=-151, y=15, z=4}
