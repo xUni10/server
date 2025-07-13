@@ -1721,3 +1721,27 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 02:11:19.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que rayos hace aqui
 [13Jul2025 02:12:18.468] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [13Jul2025 02:12:18.473] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jul2025 02:13:31.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> XD
+[13Jul2025 02:13:42.011] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
+[13Jul2025 02:13:42.083] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
+[13Jul2025 02:13:42.109] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
+[13Jul2025 02:13:42.165] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
+[13Jul2025 02:13:42.212] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
+[13Jul2025 02:13:42.281] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-551, y=75, z=555} BlockPos{x=-551, y=74, z=555}
+[13Jul2025 02:13:52.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> dame un minuto
+[13Jul2025 02:13:56.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ok
+[13Jul2025 02:14:07.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> cuidame
+[13Jul2025 02:17:18.465] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jul2025 02:17:18.469] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jul2025 02:17:43.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> img
+[13Jul2025 02:17:54.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> k'
+[13Jul2025 02:17:59.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> era como un oso+
+[13Jul2025 02:18:07.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> con cabeza de koala
+[13Jul2025 02:18:17.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> a si ya mate uno de esos
+[13Jul2025 02:18:23.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> dios me bajo todo
+[13Jul2025 02:18:39.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> wait
+[13Jul2025 02:18:40.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> perame que aura esta pidiendo algo
+[13Jul2025 02:18:44.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ok
+[13Jul2025 02:19:34.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> que fie esp
+[13Jul2025 02:22:18.462] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jul2025 02:22:18.466] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
