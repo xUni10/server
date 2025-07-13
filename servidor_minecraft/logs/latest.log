@@ -417,3 +417,13 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 02:47:20.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Spooky Scary Skeleton]
 [13Jul2025 02:47:29.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ala
 [13Jul2025 02:47:31.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Into Fire]
+[13Jul2025 02:54:41.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ya tengo las tres cabezas llevo mas?
+[13Jul2025 02:54:46.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> si
+[13Jul2025 02:54:53.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> 2
+[13Jul2025 02:54:54.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> cuantas
+[13Jul2025 02:55:18.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> para 2 whiters?
+[13Jul2025 02:55:26.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> aver
+[13Jul2025 02:55:42.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ahoita las consigo voy a comer
+[13Jul2025 02:55:45.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 lost connection: Disconnected
+[13Jul2025 02:55:45.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 left the game
+[13Jul2025 02:55:45.606] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
