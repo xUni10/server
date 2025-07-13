@@ -119,3 +119,37 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 01:11:22.800] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 96
 [13Jul2025 01:11:39.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ve a la montaña a farmear almas
 [13Jul2025 01:11:46.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> me da miedo
+[13Jul2025 01:12:04.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no tenemos cuero?
+[13Jul2025 01:12:20.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> si
+[13Jul2025 01:12:27.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> donde hay
+[13Jul2025 01:12:47.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> en los cofres
+[13Jul2025 01:12:55.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> de born in the chaos
+[13Jul2025 01:12:57.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no es cierto no hay nada
+[13Jul2025 01:13:00.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> el cuero de los lobos
+[13Jul2025 01:13:05.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> asi
+[13Jul2025 01:13:06.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> si lo pones en la mesa de crafteo
+[13Jul2025 01:13:13.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> se comvierte en cuero normal
+[13Jul2025 01:13:16.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> te da dos
+[13Jul2025 01:14:52.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> cuando vuelves
+[13Jul2025 01:15:05.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> estoy a 100 bloques
+[13Jul2025 01:15:22.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ok
+[13Jul2025 01:15:37.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 moved too quickly! 3.8926405384438567,-10.251873649421825,-0.11022602390272596
+[13Jul2025 01:17:02.582] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[13Jul2025 01:17:06.209] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 01:17:06.443] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 01:17:06.464] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 78
+[13Jul2025 01:17:09.634] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[13Jul2025 01:17:09.635] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 01:18:16.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> AYUDAAAA
+[13Jul2025 01:19:48.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ._.
+[13Jul2025 01:19:53.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> es mi mascota
+[13Jul2025 01:19:59.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> y mis loros xd?
+[13Jul2025 01:20:04.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> yo tenia dos loros
+[13Jul2025 01:20:06.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> donde los dejaste
+[13Jul2025 01:20:12.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ni idea
+[13Jul2025 01:20:34.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tas menso
+[13Jul2025 01:20:42.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> aqui nooooooooo
+[13Jul2025 01:20:56.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> luego le hare zona
+[13Jul2025 01:21:02.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> provicional
+[13Jul2025 01:21:43.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> dejalo ayi
+[13Jul2025 01:21:44.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> se va a morir
