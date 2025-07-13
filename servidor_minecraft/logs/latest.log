@@ -444,3 +444,14 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 05:08:22.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1661, y=68, z=-155} BlockPos{x=1661, y=67, z=-157}
 [13Jul2025 05:21:35.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Oh Shiny]
 [13Jul2025 05:23:55.486] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@54f062c7[id=<null>,name=Z1lasaur,properties={},legacy=false] (/127.51.58.115:34085) lost connection: Disconnected
+[13Jul2025 05:24:44.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Spray 'n Pray]
+[13Jul2025 05:24:45.025] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@47771a6c[id=<null>,name=Z1lasaur,properties={},legacy=false] (/127.51.58.115:35853) lost connection: Disconnected
+[13Jul2025 05:25:27.129] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7ae9f33b[id=<null>,name=Z1lasaur,properties={},legacy=false] (/127.51.58.115:33955) lost connection: Disconnected
+[13Jul2025 05:26:46.982] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3dbf83ad
+[13Jul2025 05:26:46.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Z1lasaur[/127.51.58.115:43149] logged in with entity id 99727 at (16.5, 108.0, -52.5)
+[13Jul2025 05:26:46.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur joined the game
+[13Jul2025 05:27:25.587] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[13Jul2025 05:28:18.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Suit Up]
+[13Jul2025 05:29:06.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Sweet Dreams]
+[13Jul2025 05:30:58.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur has made the advancement [Cover Me with Diamonds]
+[13Jul2025 05:33:36.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Z1lasaur suffocated in a wall
