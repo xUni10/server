@@ -1644,3 +1644,29 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 01:30:19.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> no
 [13Jul2025 01:32:18.473] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [13Jul2025 01:32:18.477] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jul2025 01:35:04.212] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=49.56, y=96.00, z=-169.17]]
+[13Jul2025 01:35:04.434] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=49.56, y=96.00, z=-169.17]]
+[13Jul2025 01:36:12.035] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=58.49, y=96.80, z=-169.84]]
+[13Jul2025 01:36:12.478] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=59.01, y=96.00, z=-169.78]]
+[13Jul2025 01:36:12.869] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=58.13, y=96.00, z=-170.91]]
+[13Jul2025 01:36:13.816] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=59.15, y=96.00, z=-169.55]]
+[13Jul2025 01:36:16.194] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=60.17, y=96.00, z=-168.04]]
+[13Jul2025 01:36:17.482] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=60.17, y=96.00, z=-168.04]]
+[13Jul2025 01:36:35.486] [Server thread/DEBUG] [de.cadentem.mimicer.Mimicer/]: Mimicer could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=54.86, y=96.00, z=-178.03]]
+[13Jul2025 01:37:13.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> bruh
+[13Jul2025 01:37:18.463] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jul2025 01:37:18.468] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jul2025 01:37:28.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> me avisas
+[13Jul2025 01:38:47.471] [Server thread/DEBUG] [de.cadentem.sackman.SackMan/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=57.32, y=95.00, z=-179.38]]
+[13Jul2025 01:38:52.337] [Server thread/DEBUG] [de.cadentem.sackman.SackMan/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['Fresita_decaida'/2823, l='ServerLevel[world]', x=54.43, y=95.00, z=-179.29]]
+[13Jul2025 01:39:43.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ya
+[13Jul2025 01:39:57.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> voy
+[13Jul2025 01:40:09.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> trae balas pls
+[13Jul2025 01:40:24.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> de que
+[13Jul2025 01:40:33.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> minigun
+[13Jul2025 01:41:48.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> gracias
+[13Jul2025 01:42:18.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> lol
+[13Jul2025 01:42:18.465] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[13Jul2025 01:42:18.470] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[13Jul2025 01:42:23.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> sale llamada?
+[13Jul2025 01:42:32.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no se
