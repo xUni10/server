@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/kukri": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-13 17:49:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2025-07-08 01:02:12 +0000"
@@ -128,6 +134,12 @@
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2025-07-08 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/hollow_chestplate": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-13 18:32:06 +0000"
     },
     "done": true
   },
@@ -278,6 +290,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-07-11 19:20:43 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/conquistador2_helmet": {
+    "criteria": {
+      "has_iron_nugget": "2025-07-13 18:05:16 +0000"
     },
     "done": true
   },
@@ -464,6 +482,12 @@
   "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
       "has_basalt": "2025-07-10 00:17:08 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/zombie_boots": {
+    "criteria": {
+      "has_rotten_flesh": "2025-07-13 18:00:41 +0000"
     },
     "done": true
   },
@@ -671,6 +695,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/chainmail_helmet2": {
+    "criteria": {
+      "has_wheat_seeds": "2025-07-13 18:24:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2025-07-08 00:58:33 +0000"
@@ -737,6 +767,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/uchigatana_katana": {
+    "criteria": {
+      "has_diamond": "2025-07-13 18:15:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2025-07-08 01:31:04 +0000"
@@ -774,6 +810,12 @@
   "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
       "lightning_rod_with_villager_no_fire": "2025-07-08 01:36:20 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shield_helmet": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-13 18:15:21 +0000"
     },
     "done": true
   },
@@ -894,6 +936,12 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2025-07-08 03:17:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_chestplate": {
+    "criteria": {
+      "has_dripstone_block": "2025-07-13 17:42:42 +0000"
     },
     "done": true
   },
@@ -1131,6 +1179,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/hollow_boots": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-13 18:32:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2025-07-10 01:48:53 +0000"
@@ -1341,6 +1395,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/uchigatana": {
+    "criteria": {
+      "has_diamond": "2025-07-13 18:15:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
       "has_paper": "2025-07-13 01:10:50 +0000"
@@ -1540,8 +1600,10 @@
       "minecraft:swamp": "2025-07-10 01:26:32 +0000",
       "minecraft:cold_ocean": "2025-07-10 00:40:53 +0000",
       "minecraft:forest": "2025-07-10 00:32:07 +0000",
+      "minecraft:lush_caves": "2025-07-13 18:34:59 +0000",
       "minecraft:ocean": "2025-07-10 01:34:41 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-07-10 01:39:25 +0000",
+      "minecraft:old_growth_birch_forest": "2025-07-13 18:29:31 +0000",
       "minecraft:deep_dark": "2025-07-08 22:06:53 +0000",
       "minecraft:meadow": "2025-07-08 00:58:47 +0000",
       "minecraft:plains": "2025-07-08 00:56:37 +0000"
@@ -1704,6 +1766,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/conquistador3_helmet": {
+    "criteria": {
+      "has_diamond": "2025-07-13 18:15:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
       "has_white_dye": "2025-07-09 01:41:27 +0000"
@@ -1734,9 +1802,21 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/hollow_leggings": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-13 18:32:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2025-07-08 03:17:50 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_leggings": {
+    "criteria": {
+      "has_dripstone_block": "2025-07-13 17:42:42 +0000"
     },
     "done": true
   },
@@ -1831,6 +1911,12 @@
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2025-07-08 02:19:40 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shield_chestplate": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-13 18:15:21 +0000"
     },
     "done": true
   },
@@ -1954,6 +2040,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/zombie_leggings": {
+    "criteria": {
+      "has_rotten_flesh": "2025-07-13 18:00:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2025-07-08 03:17:50 +0000"
@@ -1981,6 +2073,12 @@
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-08 22:38:18 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_helmet": {
+    "criteria": {
+      "has_dripstone_block": "2025-07-13 17:42:42 +0000"
     },
     "done": true
   },
@@ -2074,6 +2172,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-13 18:32:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2025-07-08 01:05:13 +0000"
@@ -2118,7 +2222,8 @@
       "bread": "2025-07-08 01:03:25 +0000",
       "rotten_flesh": "2025-07-08 22:14:00 +0000",
       "salmon": "2025-07-10 04:50:46 +0000",
-      "golden_carrot": "2025-07-11 21:11:57 +0000"
+      "golden_carrot": "2025-07-11 21:11:57 +0000",
+      "carrot": "2025-07-13 17:58:11 +0000"
     },
     "done": false
   },
@@ -2404,6 +2509,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/shield_leggings": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-13 18:15:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2025-07-08 00:57:59 +0000"
@@ -2524,6 +2635,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-13 18:32:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2025-07-08 23:49:50 +0000"
@@ -2614,6 +2731,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/zombie_helmet2": {
+    "criteria": {
+      "has_rotten_flesh": "2025-07-13 18:00:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2025-07-08 22:38:18 +0000"
@@ -2623,6 +2746,12 @@
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2025-07-09 00:46:49 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/kukri_dagger": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-13 17:49:02 +0000"
     },
     "done": true
   },
@@ -2716,6 +2845,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/zombie_helmet": {
+    "criteria": {
+      "has_rotten_flesh": "2025-07-13 18:00:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-07-08 22:08:05 +0000"
@@ -2794,6 +2929,18 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/hollow_helmet": {
+    "criteria": {
+      "has_red_mushroom": "2025-07-13 18:32:06 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/zombie_chestplate": {
+    "criteria": {
+      "has_rotten_flesh": "2025-07-13 18:00:41 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/straddler": {
     "criteria": {
       "killed_by": "2025-07-10 00:16:37 +0000"
@@ -2851,6 +2998,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2025-07-08 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/blood_sprayer": {
+    "criteria": {
+      "blood_sprayer": "2025-07-13 18:14:50 +0000"
     },
     "done": true
   },
@@ -3016,6 +3169,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/shield_boots": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-13 18:15:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_white_dye": "2025-07-09 01:41:27 +0000"
@@ -3073,6 +3232,12 @@
   "minecraft:recipes/building_blocks/blackstone_slab": {
     "criteria": {
       "has_blackstone": "2025-07-10 00:17:16 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bat_boots": {
+    "criteria": {
+      "has_dripstone_block": "2025-07-13 17:42:42 +0000"
     },
     "done": true
   },
@@ -3265,6 +3430,12 @@
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2025-07-08 03:17:50 +0000"
+    },
+    "done": true
+  },
+  "the_knocker:cant_sleep": {
+    "criteria": {
+      "cant_sleep_0": "2025-07-13 17:51:40 +0000"
     },
     "done": true
   },

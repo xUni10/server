@@ -1,31 +1,31 @@
-[13Jul2025 17:11:17.585] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[13Jul2025 17:11:17.590] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[13Jul2025 17:11:17.952] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[13Jul2025 17:11:18.330] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[13Jul2025 17:11:18.331] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[13Jul2025 17:11:18.333] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[13Jul2025 17:11:18.334] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[13Jul2025 17:11:18.492] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[13Jul2025 17:11:20.379] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13Jul2025 17:11:20.398] [main/ERROR] [mixin/]: Mixin config firstperson.mixins.json does not specify "minVersion" property
-[13Jul2025 17:11:20.513] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[13Jul2025 17:11:20.515] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[13Jul2025 17:11:20.520] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[13Jul2025 17:11:20.563] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 30 options available, 0 override(s) found
-[13Jul2025 17:11:20.795] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
-[13Jul2025 17:11:20.795] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
-[13Jul2025 17:11:21.065] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[13Jul2025 17:11:21.067] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[13Jul2025 17:11:21.068] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[13Jul2025 17:11:21.069] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[13Jul2025 17:11:21.070] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[13Jul2025 17:11:21.071] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[13Jul2025 17:11:21.089] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[13Jul2025 17:11:21.090] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[13Jul2025 17:11:21.158] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[13Jul2025 17:11:25.760] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[13Jul2025 17:11:28.145] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@16a9eb2e on thread Thread[modloading-worker-0,5,main]
-[13Jul2025 17:11:28.145] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+[13Jul2025 17:20:12.016] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[13Jul2025 17:20:12.020] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[13Jul2025 17:20:12.514] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[13Jul2025 17:20:12.851] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[13Jul2025 17:20:12.853] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[13Jul2025 17:20:12.854] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[13Jul2025 17:20:12.856] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[13Jul2025 17:20:13.008] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13Jul2025 17:20:14.762] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Jul2025 17:20:14.787] [main/ERROR] [mixin/]: Mixin config firstperson.mixins.json does not specify "minVersion" property
+[13Jul2025 17:20:14.906] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[13Jul2025 17:20:14.908] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[13Jul2025 17:20:14.911] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Jul2025 17:20:14.947] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 30 options available, 0 override(s) found
+[13Jul2025 17:20:15.218] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
+[13Jul2025 17:20:15.218] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
+[13Jul2025 17:20:15.441] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[13Jul2025 17:20:15.441] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[13Jul2025 17:20:15.442] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[13Jul2025 17:20:15.443] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[13Jul2025 17:20:15.443] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[13Jul2025 17:20:15.444] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[13Jul2025 17:20:15.459] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[13Jul2025 17:20:15.460] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[13Jul2025 17:20:15.526] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[13Jul2025 17:20:19.748] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[13Jul2025 17:20:22.179] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@427ae189 on thread Thread[modloading-worker-0,5,main]
+[13Jul2025 17:20:22.179] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
 java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
 	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
@@ -73,24 +73,19 @@ java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.Re
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[13Jul2025 17:11:28.153] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[13Jul2025 17:11:28.422] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[13Jul2025 17:11:28.577] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[13Jul2025 17:11:28.579] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[13Jul2025 17:11:28.593] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[13Jul2025 17:11:28.593] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[13Jul2025 17:11:29.083] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@904b224 has been registered twice for the same name treechop:chop_wood.
-[13Jul2025 17:11:30.554] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/structure_type / bosses_of_mass_destruction:void_blossom]' to registry
-[13Jul2025 17:11:30.554] [main/ERROR] [net.minecraft.Util/]: Adding duplicate value 'com.cerbon.bosses_of_mass_destruction.structure.BMDStructures$$Lambda$8074/0x000076fbc9207708@4e579bd' to registry
-[13Jul2025 17:11:30.836] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server/servidor_minecraft/config/knocker.toml is not correct. Correcting
-[13Jul2025 17:11:30.839] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server and client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:30.839] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server and client.spawn_rate was corrected from null to its default, common. 
-[13Jul2025 17:11:30.840] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server and client.respect_difficulty was corrected from null to its default, true. 
-[13Jul2025 17:11:30.840] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server and client.spawn_sound was corrected from null to its default, false. 
-[13Jul2025 17:11:31.103] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
-[13Jul2025 17:11:31.358] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.3.7 Target: null
-[13Jul2025 17:11:31.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[13Jul2025 17:11:31.372] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[13Jul2025 17:20:22.185] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[13Jul2025 17:20:22.725] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[13Jul2025 17:20:22.885] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[13Jul2025 17:20:22.886] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[13Jul2025 17:20:22.900] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[13Jul2025 17:20:22.900] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[13Jul2025 17:20:23.226] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@7a01358f has been registered twice for the same name treechop:chop_wood.
+[13Jul2025 17:20:24.446] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/structure_type / bosses_of_mass_destruction:void_blossom]' to registry
+[13Jul2025 17:20:24.447] [main/ERROR] [net.minecraft.Util/]: Adding duplicate value 'com.cerbon.bosses_of_mass_destruction.structure.BMDStructures$$Lambda$8076/0x00007a7fc9205748@47b5629d' to registry
+[13Jul2025 17:20:24.991] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[13Jul2025 17:20:25.276] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.3.7 Target: null
+[13Jul2025 17:20:25.277] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[13Jul2025 17:20:25.290] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
@@ -105,12 +100,12 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
 	... 6 more
-[13Jul2025 17:11:31.375] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[13Jul2025 17:11:31.382] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
-[13Jul2025 17:11:31.382] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
-[13Jul2025 17:11:31.383] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
-[13Jul2025 17:11:31.454] [modloading-worker-0/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Registering custom criteria trigger...
-[13Jul2025 17:11:31.468] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[13Jul2025 17:20:25.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[13Jul2025 17:20:25.306] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[13Jul2025 17:20:25.306] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[13Jul2025 17:20:25.306] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[13Jul2025 17:20:25.381] [modloading-worker-0/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Registering custom criteria trigger...
+[13Jul2025 17:20:25.407] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
@@ -125,13 +120,12 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
 	... 6 more
-[13Jul2025 17:11:31.469] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[13Jul2025 17:11:32.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.19.2-1.4.5 Target: null
-[13Jul2025 17:11:32.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Jul2025 17:11:32.556] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Jul2025 17:11:32.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
-[13Jul2025 17:11:32.635] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[13Jul2025 17:11:32.649] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[13Jul2025 17:20:25.409] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[13Jul2025 17:20:26.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.19.2-1.4.5 Target: null
+[13Jul2025 17:20:26.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Jul2025 17:20:26.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[13Jul2025 17:20:26.631] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[13Jul2025 17:20:26.648] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
@@ -146,151 +140,12 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
 	... 6 more
-[13Jul2025 17:11:32.733] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: the_silence:sombra_linterna Expected: 1085 Got: 1229
-[13Jul2025 17:11:32.734] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: the_silence:bloque_sonrisa Expected: 1086 Got: 1230
-[13Jul2025 17:11:32.734] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: the_silence:tele Expected: 1087 Got: 1231
-[13Jul2025 17:11:32.734] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: the_silence:sad_satan Expected: 1088 Got: 1232
-[13Jul2025 17:11:32.734] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: the_knocker:bridge Expected: 1222 Got: 1233
-[13Jul2025 17:11:32.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:the_silence_principal_spawn_egg Expected: 1722 Got: 2420
-[13Jul2025 17:11:32.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:la_cosa_real_spawn_egg Expected: 1723 Got: 2421
-[13Jul2025 17:11:32.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:sombra_linterna Expected: 1724 Got: 2422
-[13Jul2025 17:11:32.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:flashlight Expected: 1725 Got: 2423
-[13Jul2025 17:11:32.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:apuntar_luz Expected: 1726 Got: 2424
-[13Jul2025 17:11:32.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:flashlightoff Expected: 1727 Got: 2425
-[13Jul2025 17:11:32.736] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:bloque_sonrisa Expected: 1728 Got: 2426
-[13Jul2025 17:11:32.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:tele Expected: 1729 Got: 2427
-[13Jul2025 17:11:32.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:tape_monster Expected: 1730 Got: 2428
-[13Jul2025 17:11:32.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:tape_ecos_pasados Expected: 1731 Got: 2429
-[13Jul2025 17:11:32.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_silence:sad_satan Expected: 1732 Got: 2430
-[13Jul2025 17:11:32.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_knocker:knocker_spawn_egg Expected: 2361 Got: 2431
-[13Jul2025 17:11:32.737] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_knocker:knife Expected: 2362 Got: 2432
-[13Jul2025 17:11:32.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_knocker:knockerswim_spawn_egg Expected: 2363 Got: 2433
-[13Jul2025 17:11:32.739] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_knocker:bridge Expected: 2364 Got: 2434
-[13Jul2025 17:11:32.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: cartoon_dweller:cartoon_dweller_spawn_egg Expected: 2368 Got: 2435
-[13Jul2025 17:11:32.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:estatica_nashe Expected: 63 Got: 123
-[13Jul2025 17:11:32.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:miedo_se_va Expected: 64 Got: 124
-[13Jul2025 17:11:32.740] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:efecto_tetrico Expected: 65 Got: 125
-[13Jul2025 17:11:32.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:efecto_despues_tetrico Expected: 66 Got: 126
-[13Jul2025 17:11:32.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence Expected: 67 Got: 127
-[13Jul2025 17:11:32.741] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:correr_moverse Expected: 68 Got: 128
-[13Jul2025 17:11:32.742] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:corre_jugador_run Expected: 69 Got: 129
-[13Jul2025 17:11:32.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:efecto_pencil Expected: 70 Got: 130
-[13Jul2025 17:11:32.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:en_el_agua_cosa Expected: 71 Got: 131
-[13Jul2025 17:11:32.743] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:efecto_pencil_turbio Expected: 72 Got: 132
-[13Jul2025 17:11:32.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:bioma_pocion_efecto Expected: 73 Got: 133
-[13Jul2025 17:11:32.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:shader_principal_pocion Expected: 74 Got: 134
-[13Jul2025 17:11:32.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_2 Expected: 75 Got: 135
-[13Jul2025 17:11:32.744] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_3 Expected: 76 Got: 136
-[13Jul2025 17:11:32.745] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_4 Expected: 77 Got: 137
-[13Jul2025 17:11:32.745] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_5 Expected: 78 Got: 138
-[13Jul2025 17:11:32.747] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_6 Expected: 79 Got: 139
-[13Jul2025 17:11:32.747] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_7 Expected: 80 Got: 140
-[13Jul2025 17:11:32.747] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_8 Expected: 81 Got: 141
-[13Jul2025 17:11:32.747] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_9 Expected: 82 Got: 142
-[13Jul2025 17:11:32.747] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_10 Expected: 83 Got: 143
-[13Jul2025 17:11:32.748] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_11 Expected: 84 Got: 144
-[13Jul2025 17:11:32.748] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_12 Expected: 85 Got: 145
-[13Jul2025 17:11:32.748] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_13 Expected: 86 Got: 146
-[13Jul2025 17:11:32.748] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:susto_silence_14 Expected: 87 Got: 147
-[13Jul2025 17:11:32.749] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: the_silence:al_dormir_efectgo Expected: 88 Got: 148
-[13Jul2025 17:11:32.751] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:meurte Expected: 1722 Got: 2254
-[13Jul2025 17:11:32.751] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:deep_cave Expected: 1723 Got: 2255
-[13Jul2025 17:11:32.752] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:risa Expected: 1724 Got: 2256
-[13Jul2025 17:11:32.752] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:persecucion2 Expected: 1725 Got: 2257
-[13Jul2025 17:11:32.752] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:risa1 Expected: 1726 Got: 2258
-[13Jul2025 17:11:32.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:pasos Expected: 1727 Got: 2259
-[13Jul2025 17:11:32.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:respiracion Expected: 1728 Got: 2260
-[13Jul2025 17:11:32.753] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:latidos Expected: 1729 Got: 2261
-[13Jul2025 17:11:32.754] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:vhsmonster Expected: 1730 Got: 2262
-[13Jul2025 17:11:32.754] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:vhsecos Expected: 1731 Got: 2263
-[13Jul2025 17:11:32.754] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:audionuevopresentacion Expected: 1732 Got: 2264
-[13Jul2025 17:11:32.755] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:turbioaudio Expected: 1733 Got: 2265
-[13Jul2025 17:11:32.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:susto Expected: 1734 Got: 2266
-[13Jul2025 17:11:32.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:rechinidos Expected: 1735 Got: 2267
-[13Jul2025 17:11:32.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:roarscreamer Expected: 1736 Got: 2268
-[13Jul2025 17:11:32.756] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:risarisita Expected: 1737 Got: 2269
-[13Jul2025 17:11:32.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:brevexdsustete Expected: 1738 Got: 2270
-[13Jul2025 17:11:32.757] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:casetesonido Expected: 1739 Got: 2271
-[13Jul2025 17:11:32.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:audioreproducion2 Expected: 1740 Got: 2272
-[13Jul2025 17:11:32.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:sshh Expected: 1741 Got: 2273
-[13Jul2025 17:11:32.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:data-transmission-sound Expected: 1742 Got: 2274
-[13Jul2025 17:11:32.759] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:laser-weld Expected: 1743 Got: 2275
-[13Jul2025 17:11:32.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:radio-confusion- Expected: 1744 Got: 2276
-[13Jul2025 17:11:32.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:rustling-leaves Expected: 1745 Got: 2277
-[13Jul2025 17:11:32.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:sound-interference Expected: 1746 Got: 2278
-[13Jul2025 17:11:32.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:spooky-music-box-radio Expected: 1747 Got: 2279
-[13Jul2025 17:11:32.760] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:static-electicity-193505 Expected: 1748 Got: 2280
-[13Jul2025 17:11:32.761] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:tv-glitch Expected: 1749 Got: 2281
-[13Jul2025 17:11:32.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:spookylargo Expected: 1750 Got: 2282
-[13Jul2025 17:11:32.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:record-32043 Expected: 1751 Got: 2283
-[13Jul2025 17:11:32.762] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:mic-noise Expected: 1752 Got: 2284
-[13Jul2025 17:11:32.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:spooky-largo30 Expected: 1753 Got: 2285
-[13Jul2025 17:11:32.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:eerie-music-box Expected: 1754 Got: 2286
-[13Jul2025 17:11:32.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:breath Expected: 1755 Got: 2287
-[13Jul2025 17:11:32.763] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:grass Expected: 1756 Got: 2288
-[13Jul2025 17:11:32.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:wood-pisadas Expected: 1757 Got: 2289
-[13Jul2025 17:11:32.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:creepersonido Expected: 1758 Got: 2290
-[13Jul2025 17:11:32.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:cuevaturbio Expected: 1759 Got: 2291
-[13Jul2025 17:11:32.764] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_silence:audioreproducion3 Expected: 1760 Got: 2292
-[13Jul2025 17:11:32.766] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:door_knocking_1 Expected: 2161 Got: 2293
-[13Jul2025 17:11:32.766] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:door_knocking_2 Expected: 2162 Got: 2294
-[13Jul2025 17:11:32.766] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:door_knocking_4 Expected: 2163 Got: 2295
-[13Jul2025 17:11:32.766] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:door_knocking_3 Expected: 2164 Got: 2296
-[13Jul2025 17:11:32.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:spawn_1 Expected: 2165 Got: 2297
-[13Jul2025 17:11:32.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:spawn_2 Expected: 2166 Got: 2298
-[13Jul2025 17:11:32.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:window_knock_1 Expected: 2167 Got: 2299
-[13Jul2025 17:11:32.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:window_knock_2 Expected: 2168 Got: 2300
-[13Jul2025 17:11:32.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:breath Expected: 2169 Got: 2301
-[13Jul2025 17:11:32.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:jumpscare Expected: 2170 Got: 2302
-[13Jul2025 17:11:32.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:knife_sharpening_1 Expected: 2171 Got: 2303
-[13Jul2025 17:11:32.767] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:sharpening_knife_2 Expected: 2172 Got: 2304
-[13Jul2025 17:11:32.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_knocker:riser Expected: 2173 Got: 2305
-[13Jul2025 17:11:32.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:cavenoise_1 Expected: 2237 Got: 2306
-[13Jul2025 17:11:32.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:cavenoise_2 Expected: 2238 Got: 2307
-[13Jul2025 17:11:32.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:cavenoise_3 Expected: 2239 Got: 2308
-[13Jul2025 17:11:32.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:cavenoise_4 Expected: 2240 Got: 2309
-[13Jul2025 17:11:32.768] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:chase_step_1 Expected: 2241 Got: 2310
-[13Jul2025 17:11:32.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:chase_step_2 Expected: 2242 Got: 2311
-[13Jul2025 17:11:32.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:chase_step_3 Expected: 2243 Got: 2312
-[13Jul2025 17:11:32.769] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:chase_step_4 Expected: 2244 Got: 2313
-[13Jul2025 17:11:32.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:chase_1 Expected: 2245 Got: 2314
-[13Jul2025 17:11:32.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:chase_2 Expected: 2246 Got: 2315
-[13Jul2025 17:11:32.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:chase_3 Expected: 2247 Got: 2316
-[13Jul2025 17:11:32.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:chase_4 Expected: 2248 Got: 2317
-[13Jul2025 17:11:32.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:flee_1 Expected: 2249 Got: 2318
-[13Jul2025 17:11:32.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:flee_2 Expected: 2250 Got: 2319
-[13Jul2025 17:11:32.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:spotted Expected: 2251 Got: 2320
-[13Jul2025 17:11:32.770] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:disappear Expected: 2252 Got: 2321
-[13Jul2025 17:11:32.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:dweller_hurt_1 Expected: 2253 Got: 2322
-[13Jul2025 17:11:32.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:dweller_hurt_2 Expected: 2254 Got: 2323
-[13Jul2025 17:11:32.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:dweller_hurt_3 Expected: 2255 Got: 2324
-[13Jul2025 17:11:32.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:dweller_hurt_4 Expected: 2256 Got: 2325
-[13Jul2025 17:11:32.771] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: cartoon_dweller:dweller_death Expected: 2257 Got: 2326
-[13Jul2025 17:11:32.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:the_silence_sleep Expected: 274 Got: 520
-[13Jul2025 17:11:32.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:the_silence_principal Expected: 275 Got: 521
-[13Jul2025 17:11:32.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:the_silence_door Expected: 276 Got: 522
-[13Jul2025 17:11:32.772] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:the_cosa Expected: 277 Got: 523
-[13Jul2025 17:11:32.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:la_cosa_real Expected: 278 Got: 524
-[13Jul2025 17:11:32.775] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:projectile_bloque_proyector Expected: 279 Got: 525
-[13Jul2025 17:11:32.778] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:nothing_playing Expected: 280 Got: 526
-[13Jul2025 17:11:32.778] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:the_silence_screamer Expected: 281 Got: 527
-[13Jul2025 17:11:32.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:cosa_screamer Expected: 282 Got: 528
-[13Jul2025 17:11:32.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:the_cosa_2 Expected: 283 Got: 529
-[13Jul2025 17:11:32.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_silence:asucwacho Expected: 284 Got: 530
-[13Jul2025 17:11:32.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_knocker:knocker Expected: 514 Got: 531
-[13Jul2025 17:11:32.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_knocker:knockerstalk Expected: 515 Got: 532
-[13Jul2025 17:11:32.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_knocker:knockerstalklooked Expected: 516 Got: 533
-[13Jul2025 17:11:32.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_knocker:knockerdeadanimal Expected: 517 Got: 534
-[13Jul2025 17:11:32.779] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_knocker:knockerswim Expected: 518 Got: 535
-[13Jul2025 17:11:32.780] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: cartoon_dweller:cartoon_dweller Expected: 522 Got: 536
-[13Jul2025 17:11:32.785] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:villager_profession: Object did not get ID it asked for. Name: the_silence:wandering_library Expected: 15 Got: 16
-[13Jul2025 17:11:32.788] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:point_of_interest_type: Object did not get ID it asked for. Name: the_silence:wandering_library Expected: 21 Got: 26
-[13Jul2025 17:11:32.790] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: Object did not get ID it asked for. Name: the_silence:pesadilla_bioma Expected: 63 Got: 64
-[13Jul2025 17:11:33.537] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23177!/assets/.mcassetsroot' uses unexpected schema
-[13Jul2025 17:11:33.537] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23177!/data/.mcassetsroot' uses unexpected schema
-[13Jul2025 17:11:37.221] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[13Jul2025 17:11:37.300] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.7 MC 1.19.2.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.7 MC 1.19.2.jar)
-[13Jul2025 17:11:37.908] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+[13Jul2025 17:20:26.763] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Jul2025 17:20:27.533] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23177!/assets/.mcassetsroot' uses unexpected schema
+[13Jul2025 17:20:27.533] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23177!/data/.mcassetsroot' uses unexpected schema
+[13Jul2025 17:20:30.958] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[13Jul2025 17:20:31.048] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.7 MC 1.19.2.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.7 MC 1.19.2.jar)
+[13Jul2025 17:20:31.506] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23177!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -326,7 +181,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dr
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[13Jul2025 17:11:37.921] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ender_hammer
+[13Jul2025 17:20:31.521] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ender_hammer
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ender_hammer'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:154) ~[forge-1.19.2-43.4.2-universal.jar%23182!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:180) ~[forge-1.19.2-43.4.2-universal.jar%23182!/:?]
@@ -357,7 +212,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ender_hamm
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[13Jul2025 17:11:37.926] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+[13Jul2025 17:20:31.527] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
 com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:154) ~[forge-1.19.2-43.4.2-universal.jar%23182!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:180) ~[forge-1.19.2-43.4.2-universal.jar%23182!/:?]
@@ -388,164 +243,273 @@ com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_b
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[13Jul2025 17:11:37.949] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[13Jul2025 17:11:38.361] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[13Jul2025 17:11:38.361] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[13Jul2025 17:11:38.361] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[13Jul2025 17:11:38.361] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[13Jul2025 17:11:38.406] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/shinobi_leggings: Unknown required criterion 'has_cherry_wood'
-[13Jul2025 17:11:38.408] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
-[13Jul2025 17:11:38.421] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/shinobi_boots: Unknown required criterion 'has_cherry_wood'
-[13Jul2025 17:11:38.426] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/shinobi_chestplate: Unknown required criterion 'has_cherry_wood'
-[13Jul2025 17:11:38.433] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/shinobi_helmet: Unknown required criterion 'has_cherry_wood'
-[13Jul2025 17:11:38.450] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement man:thetear: Non [a-z0-9/._-] character in path of location: man:tearoftheman
+[13Jul2025 17:20:31.548] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[13Jul2025 17:20:31.928] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[13Jul2025 17:20:31.929] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[13Jul2025 17:20:31.929] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[13Jul2025 17:20:31.929] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[13Jul2025 17:20:31.968] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/shinobi_leggings: Unknown required criterion 'has_cherry_wood'
+[13Jul2025 17:20:31.970] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: Missing criteria, expected to find a JsonObject
+[13Jul2025 17:20:31.983] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/shinobi_boots: Unknown required criterion 'has_cherry_wood'
+[13Jul2025 17:20:31.991] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/shinobi_chestplate: Unknown required criterion 'has_cherry_wood'
+[13Jul2025 17:20:32.004] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement knightquest:recipes/misc/shinobi_helmet: Unknown required criterion 'has_cherry_wood'
+[13Jul2025 17:20:32.016] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement man:thetear: Non [a-z0-9/._-] character in path of location: man:tearoftheman
 
-[13Jul2025 17:11:38.541] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1618 advancements
-[13Jul2025 17:11:39.135] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[13Jul2025 17:11:39.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Jul2025 17:11:39.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Jul2025 17:11:39.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Jul2025 17:11:39.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Jul2025 17:11:39.352] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Jul2025 17:11:39.454] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Jul2025 17:11:39.454] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Jul2025 17:11:39.454] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Jul2025 17:11:39.455] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Jul2025 17:11:39.481] [Thread-0/INFO] [de.cadentem.mokey.Mokey/]: Server configuration has been reloaded
-[13Jul2025 17:11:39.483] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cartoon_dweller-server.toml is not correct. Correcting
-[13Jul2025 17:11:39.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_min was corrected from null to its default, 300. 
-[13Jul2025 17:11:39.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_max was corrected from null to its default, 600. 
-[13Jul2025 17:11:39.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown_chance was corrected from null to its default, 0.4. 
-[13Jul2025 17:11:39.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown was corrected from null to its default, 1200. 
-[13Jul2025 17:11:39.485] [Thread-0/INFO] [de.cadentem.mokey.Mokey/]: Server configuration has been reloaded
-[13Jul2025 17:11:39.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.488] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_min was corrected from null to its default, 240. 
-[13Jul2025 17:11:39.488] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_max was corrected from null to its default, 360. 
-[13Jul2025 17:11:39.489] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.490] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave was corrected from null to its default, 300. 
-[13Jul2025 17:11:39.490] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave_chase was corrected from null to its default, 30. 
-[13Jul2025 17:11:39.491] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.surface_timer_multiplier was corrected from null to its default, 1.0. 
-[13Jul2025 17:11:39.492] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.492] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_chance_per_tick was corrected from null to its default, 0.07. 
-[13Jul2025 17:11:39.492] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_height was corrected from null to its default, 500. 
-[13Jul2025 17:11:39.492] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.allow_surface_spawn was corrected from null to its default, true. 
-[13Jul2025 17:11:39.493] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.sky_light_level was corrected from null to its default, 15. 
-[13Jul2025 17:11:39.493] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.block_light_level was corrected from null to its default, 15. 
-[13Jul2025 17:11:39.494] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.maximum_amount was corrected from null to its default, 3. 
-[13Jul2025 17:11:39.495] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_distance was corrected from null to its default, 16. 
-[13Jul2025 17:11:39.496] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.check_path_to_spawn was corrected from null to its default, true. 
-[13Jul2025 17:11:39.497] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.498] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions.dimension_whitelist was corrected from null to its default, [minecraft:overworld]. 
-[13Jul2025 17:11:39.500] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.500] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.override_biome_datapack_config was corrected from null to its default, true. 
-[13Jul2025 17:11:39.504] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes_is_whitelist was corrected from null to its default, false. 
-[13Jul2025 17:11:39.505] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes was corrected from null to its default, []. 
-[13Jul2025 17:11:39.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.507] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.spotting_range was corrected from null to its default, 60. 
-[13Jul2025 17:11:39.508] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_disable_shields was corrected from null to its default, true. 
-[13Jul2025 17:11:39.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_climb was corrected from null to its default, true. 
-[13Jul2025 17:11:39.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_break_door was corrected from null to its default, true. 
-[13Jul2025 17:11:39.510] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.break_door_time was corrected from null to its default, 3. 
-[13Jul2025 17:11:39.511] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.allow_riding was corrected from null to its default, false. 
-[13Jul2025 17:11:39.512] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.target_invisible was corrected from null to its default, true. 
-[13Jul2025 17:11:39.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.maximum_health was corrected from null to its default, 690.0. 
-[13Jul2025 17:11:39.514] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_damage was corrected from null to its default, 15.0. 
-[13Jul2025 17:11:39.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_speed was corrected from null to its default, 0.35. 
-[13Jul2025 17:11:39.515] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.movement_speed was corrected from null to its default, 0.51. 
-[13Jul2025 17:11:39.516] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.depth_strider_bonus was corrected from null to its default, 1.5. 
-[13Jul2025 17:11:39.517] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Misc was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 17:11:39.518] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Misc.only_play_noise_to_target was corrected from null to its default, false. 
-[13Jul2025 17:11:39.520] [Thread-0/INFO] [de.cadentem.cartoon_dweller.CartoonDweller/]: Server configuration has been reloaded
-[13Jul2025 17:11:39.523] [Thread-0/INFO] [de.cadentem.cartoon_dweller.CartoonDweller/]: Server configuration has been reloaded
-[13Jul2025 17:11:39.525] [Thread-0/INFO] [de.cadentem.mimicer.Mimicer/]: Server configuration has been reloaded
-[13Jul2025 17:11:39.526] [Thread-0/INFO] [de.cadentem.mimicer.Mimicer/]: Server configuration has been reloaded
-[13Jul2025 17:11:39.669] [Server thread/INFO] [Framework/]: Loading server configs...
-[13Jul2025 17:11:39.684] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Jul2025 17:11:40.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Jul2025 17:11:45.029] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Jul2025 17:11:45.964] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.970] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.972] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.973] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.977] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.980] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.981] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.982] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.983] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.983] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.985] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:45.990] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:46.182] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 17:11:46.682] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[13Jul2025 17:11:47.182] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
-[13Jul2025 17:11:47.221] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Jul2025 17:11:47.513] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7331 ms
-[13Jul2025 17:11:47.514] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.044s)! For help, type "help"
-[13Jul2025 17:11:47.549] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Jul2025 17:11:47.550] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
-[13Jul2025 17:11:52.973] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4ef26297
-[13Jul2025 17:11:52.991] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:46457] logged in with entity id 69 at (232.78082864092977, -6.0, -201.88802470205266)
-[13Jul2025 17:11:53.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
-[13Jul2025 17:11:53.817] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
-[13Jul2025 17:11:53.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
-[13Jul2025 17:11:53.913] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[13Jul2025 17:12:02.577] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5f5f0c26
-[13Jul2025 17:12:02.585] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xUNIx10[/127.51.58.115:55871] logged in with entity id 84 at (-18.421208879884922, -41.0, -1374.515951690646)
-[13Jul2025 17:12:02.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 joined the game
-[13Jul2025 17:12:05.953] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3299ms or 65 ticks behind
-[13Jul2025 17:12:07.346] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@144ecb12
-[13Jul2025 17:12:07.354] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:43537] logged in with entity id 250 at (232.78082864092977, -6.0, -201.88802470205266)
-[13Jul2025 17:12:07.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
-[13Jul2025 17:12:07.939] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
-[13Jul2025 17:12:07.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
-[13Jul2025 17:12:28.126] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@41409b5b
-[13Jul2025 17:12:28.134] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:36587] logged in with entity id 400 at (232.78082864092977, -6.0, -201.88802470205266)
-[13Jul2025 17:12:28.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
-[13Jul2025 17:12:28.694] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
-[13Jul2025 17:12:28.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
-[13Jul2025 17:12:56.923] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6a138689
-[13Jul2025 17:12:56.929] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:43087] logged in with entity id 485 at (232.78082864092977, -6.0, -201.88802470205266)
-[13Jul2025 17:12:56.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
-[13Jul2025 17:12:57.977] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
-[13Jul2025 17:12:57.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
-[13Jul2025 17:16:12.725] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2d97b2a9
-[13Jul2025 17:16:12.732] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:54973] logged in with entity id 975 at (232.78082864092977, -6.0, -201.88802470205266)
-[13Jul2025 17:16:12.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
-[13Jul2025 17:16:13.430] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
-[13Jul2025 17:16:13.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
-[13Jul2025 17:17:05.920] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@47ee1947
-[13Jul2025 17:17:05.925] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:39133] logged in with entity id 1157 at (232.78082864092977, -6.0, -201.88802470205266)
-[13Jul2025 17:17:05.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
-[13Jul2025 17:17:06.610] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
-[13Jul2025 17:17:06.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
-[13Jul2025 17:18:05.822] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6958c255
-[13Jul2025 17:18:05.827] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:43463] logged in with entity id 1377 at (232.78082864092977, -6.0, -201.88802470205266)
-[13Jul2025 17:18:05.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
-[13Jul2025 17:18:07.159] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:stalking_chuckoo_clock but it was marked as removed already
-[13Jul2025 17:18:07.232] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
-[13Jul2025 17:18:07.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
-[13Jul2025 17:18:38.867] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@36390408[id=<null>,name=Fresita_decaida,properties={},legacy=false] (/127.14.55.169:38899) lost connection: Disconnected
-[13Jul2025 17:18:50.061] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@14e62831[id=<null>,name=Fresita_decaida,properties={},legacy=false] (/127.14.55.169:48037) lost connection: Disconnected
-[13Jul2025 17:18:50.360] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 lost connection: Disconnected
-[13Jul2025 17:18:50.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 left the game
-[13Jul2025 17:18:54.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[13Jul2025 17:18:55.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Jul2025 17:18:55.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Jul2025 17:18:55.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Jul2025 17:18:55.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13Jul2025 17:18:55.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13Jul2025 17:18:55.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_silence:prueba_bolsillo
-[13Jul2025 17:18:55.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_silence:pesadilla_dimension
-[13Jul2025 17:18:55.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/man:halucination
-[13Jul2025 17:18:55.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13Jul2025 17:18:55.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13Jul2025 17:18:55.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Jul2025 17:18:55.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (prueba_bolsillo): All chunks are saved
-[13Jul2025 17:18:55.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pesadilla_dimension): All chunks are saved
-[13Jul2025 17:18:55.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (halucination): All chunks are saved
-[13Jul2025 17:18:55.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Jul2025 17:18:55.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13Jul2025 17:18:56.015] [Server thread/INFO] [Framework/]: Unloading server configs...
+[13Jul2025 17:20:32.104] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1618 advancements
+[13Jul2025 17:20:32.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[13Jul2025 17:20:32.792] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Jul2025 17:20:32.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Jul2025 17:20:32.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Jul2025 17:20:32.946] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Jul2025 17:20:32.967] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Jul2025 17:20:33.047] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Jul2025 17:20:33.047] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Jul2025 17:20:33.048] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Jul2025 17:20:33.048] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Jul2025 17:20:33.069] [Thread-0/INFO] [de.cadentem.mokey.Mokey/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.070] [Thread-0/INFO] [de.cadentem.mokey.Mokey/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.073] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.075] [Thread-0/INFO] [de.cadentem.irritator.Irritator/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.077] [Thread-0/INFO] [de.cadentem.irritator.Irritator/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.078] [Thread-0/INFO] [de.cadentem.cartoon_dweller.CartoonDweller/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.080] [Thread-0/INFO] [de.cadentem.cartoon_dweller.CartoonDweller/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.081] [Thread-0/INFO] [de.cadentem.sackman.SackMan/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.084] [Thread-0/INFO] [de.cadentem.sackman.SackMan/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.085] [Thread-0/INFO] [de.cadentem.mimicer.Mimicer/]: Server configuration has been reloaded
+[13Jul2025 17:20:33.268] [Server thread/INFO] [Framework/]: Loading server configs...
+[13Jul2025 17:20:33.283] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Jul2025 17:20:33.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Jul2025 17:20:39.536] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.541] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.543] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.551] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.553] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.556] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.557] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.558] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.563] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.565] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.567] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.568] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:39.814] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2025 17:20:40.313] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[13Jul2025 17:20:40.815] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[13Jul2025 17:20:41.181] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7368 ms
+[13Jul2025 17:20:41.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.123s)! For help, type "help"
+[13Jul2025 17:20:41.209] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Jul2025 17:20:41.210] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[13Jul2025 17:20:56.542] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@e433c3d
+[13Jul2025 17:20:56.563] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:47361] logged in with entity id 70 at (232.78082864092977, -6.0, -201.88802470205266)
+[13Jul2025 17:20:56.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
+[13Jul2025 17:20:57.827] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
+[13Jul2025 17:20:57.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
+[13Jul2025 17:26:01.334] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@12ddfc44
+[13Jul2025 17:26:01.343] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:38127] logged in with entity id 106 at (232.78082864092977, -6.0, -201.88802470205266)
+[13Jul2025 17:26:01.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
+[13Jul2025 17:26:01.850] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
+[13Jul2025 17:26:01.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
+[13Jul2025 17:28:50.228] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4d341df7
+[13Jul2025 17:28:50.237] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:50705] logged in with entity id 146 at (232.78082864092977, -6.0, -201.88802470205266)
+[13Jul2025 17:28:50.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
+[13Jul2025 17:28:50.853] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Disconnected
+[13Jul2025 17:28:50.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
+[13Jul2025 17:37:07.424] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1acc8e49
+[13Jul2025 17:37:07.431] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:51959] logged in with entity id 199 at (232.78082864092977, -6.0, -201.88802470205266)
+[13Jul2025 17:37:07.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
+[13Jul2025 17:37:38.812] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2cef8c91
+[13Jul2025 17:37:38.819] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xUNIx10[/127.51.58.115:39029] logged in with entity id 517 at (-23.580589001122572, 26.0, -1375.4682811925563)
+[13Jul2025 17:37:38.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 joined the game
+[13Jul2025 17:37:42.042] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3175ms or 63 ticks behind
+[13Jul2025 17:38:52.648] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2281ms or 45 ticks behind
+[13Jul2025 17:44:46.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> un re escremer
+[13Jul2025 17:45:25.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ven a la base
+[13Jul2025 17:46:13.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hermano tengo
+[13Jul2025 17:46:26.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> escremers cada 5 segundos dios
+[13Jul2025 17:46:42.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> escuche algo
+[13Jul2025 17:47:05.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hermano
+[13Jul2025 17:47:08.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida was slain by Mokey
+[13Jul2025 17:47:08.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> no veo nada
+[13Jul2025 17:47:11.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> xD
+[13Jul2025 17:47:28.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> un miedo
+[13Jul2025 17:47:48.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hermano se ve todo negro
+[13Jul2025 17:48:03.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tienes shaders?
+[13Jul2025 17:48:15.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> que es eso de youre still on time
+[13Jul2025 17:48:23.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> oh no.
+[13Jul2025 17:48:35.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> me vino el dese coso cartoon
+[13Jul2025 17:48:37.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> y se fue
+[13Jul2025 17:48:41.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> Es como un tipo paajro raro
+[13Jul2025 17:48:45.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> y despues una cosa negra
+[13Jul2025 17:48:54.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ni idea
+[13Jul2025 17:49:32.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> vamo al end
+[13Jul2025 17:49:38.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> voy
+[13Jul2025 17:49:59.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> wait
+[13Jul2025 17:50:10.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ayudame a traer todas las balas y eso
+[13Jul2025 17:50:21.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> y milanesas?
+[13Jul2025 17:51:47.970] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:stalking_chuckoo_clock but it was marked as removed already
+[13Jul2025 17:51:54.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> .-.
+[13Jul2025 17:51:58.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ya
+[13Jul2025 17:52:07.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> te acaba de saltar algo
+[13Jul2025 17:52:10.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> k paso
+[13Jul2025 17:52:18.868] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:stalking_chuckoo_clock but it was marked as removed already
+[13Jul2025 17:52:21.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> protegeme
+[13Jul2025 17:52:25.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hermano
+[13Jul2025 17:52:33.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> tengo un monton de efectos
+[13Jul2025 17:53:11.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> tengounborde negro en toda la pantalla
+[13Jul2025 17:53:19.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> ora
+[13Jul2025 17:53:29.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> chill yo me encargo
+[13Jul2025 17:54:02.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tienen la hitbox abajo
+[13Jul2025 17:54:07.879] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:08.576] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:08.577] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:08.577] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 17:54:08.875] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:08.876] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 17:54:10.899] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:12.520] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[13Jul2025 17:54:12.520] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:12.521] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:12.521] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:12.533] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 87
+[13Jul2025 17:54:14.245] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:14.245] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:14.499] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:14.517] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 82
+[13Jul2025 17:54:15.639] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:16.288] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[13Jul2025 17:54:16.289] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:16.289] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:16.290] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:16.290] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 17:54:17.371] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[13Jul2025 17:54:17.371] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:17.372] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:17.372] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:17.373] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 17:54:17.373] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:17.373] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 96
+[13Jul2025 17:54:17.374] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[13Jul2025 17:54:17.385] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 84
+[13Jul2025 17:54:18.062] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:18.468] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:18.468] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:18.469] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:19.236] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:19.236] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:19.237] [Server thread/WARN] [cgm/]: literal{xUNIx10}(e27a7954-24de-3b7b-97e4-c85e6a076a69) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:19.237] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 17:54:19.238] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[13Jul2025 17:54:28.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> -_-
+[13Jul2025 17:54:33.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> me muero
+[13Jul2025 17:55:40.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> cubreme tantito
+[13Jul2025 17:55:54.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> no puedo
+[13Jul2025 17:56:24.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> eh llegado
+[13Jul2025 18:00:15.812] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6746ms or 134 ticks behind
+[13Jul2025 18:01:00.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hermano j paso
+[13Jul2025 18:01:23.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> por que estoy hasta narnia
+[13Jul2025 18:01:36.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que
+[13Jul2025 18:01:45.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> estaba hasta
+[13Jul2025 18:01:56.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> el pie de la ontaña
+[13Jul2025 18:02:02.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no c
+[13Jul2025 18:02:17.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> creo que esa cosa me llevo no se
+[13Jul2025 18:02:21.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> creo que me mori
+[13Jul2025 18:02:29.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> perdí 40 niveles
+[13Jul2025 18:02:32.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> -_-
+[13Jul2025 18:02:35.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no
+[13Jul2025 18:02:40.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> te hiba a encantar la armadura
+[13Jul2025 18:02:49.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> creo que me mato
+[13Jul2025 18:02:56.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> y la armadura me salvo
+[13Jul2025 18:03:09.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> vamos al end
+[13Jul2025 18:03:12.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> voy
+[13Jul2025 18:03:20.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> trae comida pls
+[13Jul2025 18:04:40.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> comidaaaa
+[13Jul2025 18:04:40.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ya llegue
+[13Jul2025 18:04:54.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que
+[13Jul2025 18:05:11.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> como molesta
+[13Jul2025 18:05:25.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> tienes un hacha que me prestes?
+[13Jul2025 18:05:32.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> esa
+[13Jul2025 18:05:36.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> bueno
+[13Jul2025 18:05:40.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> vamo
+[13Jul2025 18:05:53.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> pera dame comida
+[13Jul2025 18:06:06.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> seguro que vasa a ir así?
+[13Jul2025 18:06:17.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> seeeeeee
+[13Jul2025 18:06:23.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> bueno lleva camas
+[13Jul2025 18:07:34.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> que es eso
+[13Jul2025 18:07:39.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que cosa
+[13Jul2025 18:08:41.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tengp un borde negro
+[13Jul2025 18:09:18.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ya regurese
+[13Jul2025 18:09:25.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> tambén tenia esa cosa
+[13Jul2025 18:09:31.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> aparecio una cosa gigante
+[13Jul2025 18:11:00.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> tienes comida?
+[13Jul2025 18:11:09.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> voy
+[13Jul2025 18:11:34.668] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:stalking_chuckoo_clock but it was marked as removed already
+[13Jul2025 18:11:55.570] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:stalking_chuckoo_clock but it was marked as removed already
+[13Jul2025 18:11:57.868] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:stalking_chuckoo_clock but it was marked as removed already
+[13Jul2025 18:12:36.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> primero hay que dormir
+[13Jul2025 18:12:46.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no tengo cama
+[13Jul2025 18:12:55.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> -_-
+[13Jul2025 18:13:02.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> pues hazte una
+[13Jul2025 18:13:19.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 has made the advancement [Knight Quest]
+[13Jul2025 18:13:52.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> escuchas eso?
+[13Jul2025 18:13:57.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que cosa
+[13Jul2025 18:14:01.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> es como estatica
+[13Jul2025 18:14:07.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> no
+[13Jul2025 18:14:50.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida has made the advancement [Spray 'n Pray]
+[13Jul2025 18:15:24.802] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[13Jul2025 18:15:58.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> es re runer
+[13Jul2025 18:16:20.329] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida was kicked for floating too long!
+[13Jul2025 18:16:20.330] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Flying is not enabled on this server
+[13Jul2025 18:16:20.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
+[13Jul2025 18:16:20.387] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Jul2025 18:16:27.980] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@16b1d788
+[13Jul2025 18:16:27.987] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fresita_decaida[/127.14.55.169:42845] logged in with entity id 13426 at (116.47694810039302, 86.04312395532459, -187.3771473413946)
+[13Jul2025 18:16:27.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida joined the game
+[13Jul2025 18:16:28.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hermano
+[13Jul2025 18:16:37.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> donde estoy
+[13Jul2025 18:16:43.832] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 moved too quickly! -94.30000001192093,32.0,113.30000001192093
+[13Jul2025 18:16:46.655] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2538ms or 50 ticks behind
+[13Jul2025 18:16:52.975] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:trigger but it was marked as removed already
+[13Jul2025 18:17:00.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> QUE PASO
+[13Jul2025 18:17:07.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> tengo mied
+[13Jul2025 18:17:24.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> hermanaaaaaaaano
+[13Jul2025 18:17:32.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> como que el scp me esta cazando
+[13Jul2025 18:17:42.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> que es esa cosa
+[13Jul2025 18:17:56.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> que es eso
+[13Jul2025 18:18:04.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> noooooooooooo
+[13Jul2025 18:18:05.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que cosa
+[13Jul2025 18:18:09.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> viene por mi
+[13Jul2025 18:18:23.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> no era eso
+[13Jul2025 18:18:23.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> que nuv
+[13Jul2025 18:18:27.728] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:chuckoo_clock_jumpscare but it was marked as removed already
+[13Jul2025 18:18:30.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> viene de alla
+[13Jul2025 18:18:35.799] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 78
+[13Jul2025 18:18:39.315] [Server thread/WARN] [cgm/]: literal{Fresita_decaida}(41df040e-7dce-3887-9950-7caa86e43953) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[13Jul2025 18:18:46.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> sale llamada?
+[13Jul2025 18:18:54.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> pera deja me conecto
+[13Jul2025 18:19:56.521] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:stalking_chuckoo_clock but it was marked as removed already
+[13Jul2025 18:20:02.969] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:stalking_chuckoo_clock but it was marked as removed already
+[13Jul2025 18:21:25.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xUNIx10> ya?
+[13Jul2025 18:23:50.128] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_cuckoo_clock:chuckoo_clock_jumpscare but it was marked as removed already
+[13Jul2025 18:27:57.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fresita_decaida> -23 -1375
+[13Jul2025 18:35:40.824] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 lost connection: Disconnected
+[13Jul2025 18:35:40.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 left the game
+[13Jul2025 18:35:40.874] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Jul2025 18:35:44.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[13Jul2025 18:35:44.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Jul2025 18:35:44.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Jul2025 18:35:44.526] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Server closed
+[13Jul2025 18:35:44.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
+[13Jul2025 18:35:44.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Jul2025 18:35:46.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13Jul2025 18:35:47.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/man:halucination
+[13Jul2025 18:35:47.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13Jul2025 18:35:47.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_silence:pesadilla_dimension
+[13Jul2025 18:35:47.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13Jul2025 18:35:47.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_silence:prueba_bolsillo
+[13Jul2025 18:35:47.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13Jul2025 18:35:47.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (halucination): All chunks are saved
+[13Jul2025 18:35:47.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Jul2025 18:35:47.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pesadilla_dimension): All chunks are saved
+[13Jul2025 18:35:47.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Jul2025 18:35:47.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (prueba_bolsillo): All chunks are saved
+[13Jul2025 18:35:47.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Jul2025 18:35:47.119] [Server thread/INFO] [Framework/]: Unloading server configs...
