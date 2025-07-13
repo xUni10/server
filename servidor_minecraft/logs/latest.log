@@ -427,3 +427,6 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 02:55:45.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 lost connection: Disconnected
 [13Jul2025 02:55:45.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 left the game
 [13Jul2025 02:55:45.606] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Jul2025 04:01:06.528] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Timed out
+[13Jul2025 04:01:06.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
+[13Jul2025 04:01:06.575] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
