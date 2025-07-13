@@ -104,3 +104,4 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 06:18:31.029] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xUNIx10[/127.51.58.115:40695] logged in with entity id 111 at (45.437562709742906, 99.00133597911214, -262.3635554785785)
 [13Jul2025 06:18:31.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 joined the game
 [13Jul2025 06:25:21.016] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-150, y=15, z=4} BlockPos{x=-151, y=15, z=4}
+[13Jul2025 06:29:57.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xUNIx10 moved wrongly!
