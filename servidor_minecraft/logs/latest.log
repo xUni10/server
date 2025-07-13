@@ -430,3 +430,6 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [13Jul2025 04:01:06.528] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fresita_decaida lost connection: Timed out
 [13Jul2025 04:01:06.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fresita_decaida left the game
 [13Jul2025 04:01:06.575] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[13Jul2025 04:15:39.127] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@50e767d9
+[13Jul2025 04:15:39.131] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xUNIx10[/127.51.58.115:54417] logged in with entity id 83454 at (-604.8553862014157, 59.0, 314.30000001192093)
+[13Jul2025 04:15:39.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xUNIx10 joined the game
